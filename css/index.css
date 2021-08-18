@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'M PLUS Rounded 1c', sans-serif;   
+    font-size: 1rem;
+}
+html{
+    overflow: hidden;
+}
+body{
+    width: 98vw;
+    height: 100vh;
+    background-color: #343F4D;
+}
+.operations{
+    margin-top: 5px;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-body{
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+.button-body:hover{
+    filter: opacity(0.8);
+}
+.operations__create{
+   background-color: red;
+}
+.operations__list{
+   background-color: springgreen;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 450px auto 600px;
+    grid-template-rows: auto auto auto;
+    gap: 4px;
+    margin-top: 80px;
+    height: 400px;
+}
+.form{
+    display: none;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    border: 2px solid black;
+    background-color: red;
+    height: 450px;
+    color: white;
+    padding: 5px;
+}
+.form__text{
+    margin-bottom: 5px;  
+    margin-top: 5px;  
+}
+.form__button{
+    display: block;
+    background-color: springgreen;
+    margin-top: 20px;
+}
+.confirmation{
+    width: 90%;
+    text-align: center;
+    display: none;
+    color: white;
+}
+.confirmation__text{
+font-size:1.2rem ;
+ margin-bottom: 20px;   
+}
+.confirmation__text:hover{
+    color: springgreen;
+}
+.table{
+    margin-bottom: 10px;
+    display: none;
+    box-shadow: 2px 2px 2px black;
+}
+.table,.table__head,.table__body,.table__row,.table__colum{
+    width: 100%;
+    border: 2px solid black;
+    background-color: springgreen;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.efect-table:hover{
+background-color:red;
+}
